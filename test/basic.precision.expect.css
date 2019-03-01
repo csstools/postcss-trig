@@ -1,19 +1,19 @@
 :root {
-	--acos: 0.6435;
-	--asin: 0.6435;
-	--atan: 0.9273;
-	--atan2: 0.7854;
-	--cos: 0.40808;
-	--cos-deg: 0.93969;
+	--acos: 0.644;
+	--asin: 0.644;
+	--atan: 0.927;
+	--atan2: 0.785;
+	--cos: 0.408;
+	--cos-deg: 0.94;
 	--hypot: 5;
 	--pow: 256;
 	--pow-rem: 256rem;
-	--sin: 0.91295;
-	--sin-deg: 0.34202;
+	--sin: 0.913;
+	--sin-deg: 0.342;
 	--sqrt: 9;
 	--sqrt-rem: 9rem;
-	--tan: 2.23716;
-	--tan-deg: 0.36397;
+	--tan: 2.237;
+	--tan-deg: 0.364;
 }
 
 :root {

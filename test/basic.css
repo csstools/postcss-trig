@@ -1,0 +1,30 @@
+:root {
+	--acos: acos(0.8);
+	--asin: asin(0.6);
+	--atan: atan(0.8);
+	--atan2: atan2(5, 5);
+	--cos: cos(20);
+	--cos-deg: cos(20deg);
+	--hypot: hypot(3, 4);
+	--pow: pow(4, 4);
+	--pow-rem: pow(4rem, 4);
+	--sin: sin(20);
+	--sin-deg: sin(20deg);
+	--sqrt: sqrt(81);
+	--sqrt-rem: sqrt(81rem);
+	--tan: tan(20);
+	--tan-deg: tan(20deg);
+}
+
+:root {
+	--cos-calc: cos(calc(20 * 2));
+	--cos-var: cos(var(--angle));
+	--pow-calc: pow(calc(4 * 2), 4);
+	--pow-var: pow(var(--number), 4);
+	--sin-calc: sin(calc(20 * 2));
+	--sin-var: sin(var(--angle));
+	--sqrt-calc: sqrt(calc(81 * 4));
+	--sqrt-var: sqrt(var(--number));
+	--tan-calc: tan(calc(20 * 2));
+	--tan-var: tan(var(--angle));
+}

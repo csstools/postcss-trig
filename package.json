@@ -1,7 +1,7 @@
 {
   "name": "postcss-trig",
   "version": "1.0.0",
-  "description": "Use trigonometry in CSS",
+  "description": "Use trigonometry functions in CSS",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
   "repository": "csstools/postcss-trig",
@@ -16,10 +16,11 @@
     "index.mjs.map"
   ],
   "scripts": {
+    "build": "rollup --config .rollup.js --silent",
     "prepublishOnly": "npm test",
-    "pretest": "rollup --config .rollup.js --silent",
+    "pretest:tape": "npm run build",
     "test": "npm run test:js && npm run test:tape",
-    "test:js": "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+    "test:js": "eslint src/*.js src/lib/*.js --cache --ignore-path .gitignore --quiet",
     "test:tape": "postcss-tape"
   },
   "engines": {
