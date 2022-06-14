@@ -1,3 +1,5 @@
+<div align="center">⚠️ PostCSS Trig is no longer maintained ⚠️ <br/> There's a new plugin that handles trigonometric which you can find in <a href="https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-trigonometric-functions">@csstools/postcss-plugins</a>.</div>
+
 # PostCSS Trig [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS" width="90" height="90" align="right">][postcss]
 
 [![NPM Version][npm-img]][npm-url]
